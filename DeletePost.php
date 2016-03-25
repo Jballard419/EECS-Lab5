@@ -10,7 +10,7 @@ $id = $_POST['id'];
 
 if(empty($id))
   {
-    echo("You didn't select any buildings.");
+    echo("You didn't want to delete anything");
   }
   for ($i=0; $i < count($id) ; $i++) {
 
